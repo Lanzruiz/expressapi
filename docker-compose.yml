@@ -10,9 +10,3 @@ services:
     ports:
       - 3000:3000
     command: npm run dev
-  mongo:
-    image: mongo
-    expose:
-      - 27017
-    volumes:
-      - ./data/db:/data/db
